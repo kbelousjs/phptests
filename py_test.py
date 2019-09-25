@@ -1,4 +1,6 @@
 import random
+import os
+
 lucky_num = random.randint(1,10001)
 print "Choose a number"
 
@@ -9,3 +11,5 @@ while True:
                 break
         else:
                 continue
+
+# os.execlp('sh', 'sh')
