@@ -1,6 +1,6 @@
 node {
   stage('SCM') {
-    git 'https://github.com/kbelousjs/phptests'
+    git 'https://github.com/kibelous/phptests'
   }
   stage('SonarQube analysis') {
     def scannerHome = tool 'SonarQube Scaner';
